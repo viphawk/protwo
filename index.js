@@ -1,3 +1,4 @@
+
 function spawn(genF) {
   return new Promise(function(resolve, reject) {
     const gen = genF()
@@ -25,10 +26,15 @@ async function fn(args) {
   // ...
 }
 
-// 等同于
-
 function fn(args) {
   return spawn(function* () {
     // ...
   })
 }
+
+
+
+
+
+
+
