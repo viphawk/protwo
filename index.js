@@ -1,4 +1,5 @@
 
+
 function spawn(genF) {
   return new Promise(function (resolve, reject) {
     const gen = genF()
@@ -37,3 +38,4 @@ function fn(args) {
 
 
 
+// gen.next(v)
